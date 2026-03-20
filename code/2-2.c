@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 void swap(int *x, int *y) {
-    int swapper1 = x;
-    int swapper2 = y;
+    int swapper1 = *x;
+    int swapper2 = *y;
     *x = swapper2;
     *y = swapper1;
     // *x = *x ^ *y;
