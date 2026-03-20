@@ -22,4 +22,6 @@ int main() {
     printf("%d %c %d %c %d\n", a, '-', b, '=', sub(a, b));
     printf("%d %c %d %c %d\n", a, '*', b, '=', mul(a, b));
     printf("%d %c %d %c %d", a, '/', b, '=', div(a, b));
+
+    return 0;
 }
